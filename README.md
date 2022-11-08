@@ -6,7 +6,7 @@
 ├── api                     # REST api definition using swagger spec.
 ├── sql                     # SQL statements to init the database, user and create the relative tables
 ├── src                      
-│   ├── services
+│   ├── catalogue
 │   │   ├── session
 │   │   │   ├── session.py       # python entry point 
 │   │   │   ├── api.py           # REST entry point and ble print definition, it is the only place where flask is used
